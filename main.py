@@ -18,6 +18,8 @@ def main():
 
     while True:
         try:
+            print("___________________________________")
+            print("Waiting for frame...")
             # get next frame (rgbd)
             rgb_frame, depth_frame = input_source.get_frame()
 
